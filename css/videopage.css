@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*background: url(london.jpg);*/
+    
+    background: url(../images/6.jpg);
+    /*background-color: black*/
+    background-size: cover;
+}

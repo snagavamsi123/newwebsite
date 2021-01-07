@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
+header{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/3.jpg);
+    height: 100vh;
+    width: 100%;
+    float: right;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.maindiv{
+    width: 100%;
+    float: right;
+    position: fixed;
+}
+
+
+
+
+.container{
+    
+    width: 100%;
+    height: 100%;
+    float: right;
+    /*
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;*/
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    
+}
+ul li{
+    
+    display: inline-block;
+    /* margin-inline-end: 1cm; */
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+
+    background-color: #fff;
+    color: black;
+
+}
+
+.logo{
+    position: fixed;
+    color: #3af582;
+    opacity: 0.4;
+    font-style: italic;
+    font: oblique;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+ul li.home_btn a{
+
+    background-color: #fff;
+    color: black;
+
+}
+
+.title_name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.title_name h1{
+    color: rgb(247, 132, 247);
+    font-size: 60px;
+}
+
+.title_button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+
+.title_btn1{
+    padding: 10px 30px;
+    border: 1px solid; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.6s ease;
+
+}
+
+.title_btn1:hover{
+    background-color: #fff;
+    color: black;
+
+}
+
+
+section{
+    background-image: url('../images/9.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+section h1{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    
+    
+}
+section p{
+    font-size: 1.0rem;
+    color: rgb(255, 255, 255);
+    
+}
+
+/* section#services{
+    background-image: url('../images/9.jpg');
+
+} */
+
+

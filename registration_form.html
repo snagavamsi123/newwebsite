@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel='stylesheet' href='css/registration_style.css'>
+</head>
+<body>
+<form action="http://127.0.0.1:5500/Web%20pages/Login_form/formutube.html?" onsubmit="return validating()" onclick="f_name_warning_removal()">
+
+    <header class="reg_header">
+
+        
+        <div class="logo_reg"><h2>Vamsi</h2></div>
+        <div class="maindiv">
+            <nav class="navbar">
+            <ul>
+                <li class="home_btn"><a href="index.html">HOME</a> </li>
+                <li class="signup_btn"><a href="#">SIGN UP</a> </li>
+                <li><a href="formutube.html">LOG IN</a> </li>
+                <li><a href="index.html#services">Services</a> </li>
+                <li><a href="index.html#about">About</a> </li>
+                <li><a href="index.html#contact">Contact</a> </li>
+
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='reg_form'>
+    <h1 id='WishWithName'>Sign Up</h1>
+
+    <div class='inputboxes'>
+        <input  onchange="include_name()" type="text" value='' id='ip1' placeholder="First name"> 
+    </div>
+        <h5 id='first_name_warning' class='name_warning'></h5>
+        
+    <div class='inputboxes'>
+        <input onmouseover="include_name()" type="text" value='' id='ip2' placeholder="Last name">
+        <h5 id='last_name_warning' class='name_warning'></h5>
+         
+    </div>
+
+    <div class='inputboxes'>
+        <input type="text" value='' id='ip3' placeholder="Email Address">
+    </div>  
+        <h5 id='email_warning' class='name_warning'></h5>
+
+    <div class='inputboxes'>
+        <input type="text" value='' id='ip4' placeholder="User Id">
+    </div>
+    <h5 id='user_name_warning' class='name_warning'></h5>
+    
+    <div class='inputboxes'>
+        <input type="password" value='' id='ip5' placeholder="New password">
+    </div>
+    <h5 id='password_warning' class='name_warning'></h5>
+
+
+    <h5 id='extra_warnings' class='name_warning'></h5>
+
+    <button class='btn2' type='submit' name='' value=''>Sign Up</button>
+
+
+</div>
+</form>
+</body>   
+
+<script type='text/javascript' src='javascript/registration_javascript.js'>
+
+</script>
+
+</html>
