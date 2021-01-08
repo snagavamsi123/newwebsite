@@ -25,6 +25,7 @@ function desktopmode(){
 
     if(window.location.href=='https://snagavamsi123.github.io/newwebsite/' || window.location.href=="https://snagavamsi123.github.io/newwebsite"){
         alert('Use Desktop Mode for better UI')
+        console.log(window.location.href)
     }
 
 }
