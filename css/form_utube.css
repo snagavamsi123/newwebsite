@@ -9,6 +9,7 @@ body{
     /*background: url(london.jpg);*/
     
     background: url(../images/7.jpg);
+    background-repeat: no-repeat;
     /*background-color: black*/
     
 }
@@ -16,7 +17,7 @@ body{
 .login_box{
 
     width: 280px;
-    position: absolute;
+    position: absolute;  
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -39,8 +40,6 @@ position: absolute;
 top: 12%;
 left:39.5%;
 
-
-
 }
 .hello1 h3{
     color:cornsilk;
@@ -51,10 +50,6 @@ left:39.5%;
     padding: 13px 0;
 
 }
-
-
-
-
 
 .textbox{
     width: 100%;

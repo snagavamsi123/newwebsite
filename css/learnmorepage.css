@@ -88,9 +88,19 @@ ul li a:hover{
     font-size: 25px;
 }
 
-/*For video*/
 
-video{
-    margin-top: 12%;
-    margin-left: 30%;
+.learnmorecontent{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+
+
+
+#learn_title{
+    color: red;
+    margin-top: 15%;
+    margin-left: -4%;
+    text-align-last: center;
 }
