@@ -23,7 +23,7 @@ if(this.hash != ''){
 
 function desktopmode(){
 
-    if(window.location.href=='http://127.0.0.1:5500/index.html' || window.location.href=="http://127.0.0.1:5500"){
+    if(window.location.href=='https://snagavamsi123.github.io/newwebsite/' || window.location.href=="https://snagavamsi123.github.io/newwebsite"){
         alert('Use Desktop Mode for better UI')
     }
 
